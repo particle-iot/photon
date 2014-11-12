@@ -1,10 +1,10 @@
-### Photon
+# Photon
 
 The Spark Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.
 
 The development kit will have a similar footprint and will be as close to drop-in compatible as possible with the Spark Core.
 
-#### Some highlights of the USI module:
+### Some highlights of the USI module:
 
  1. IEEE 802.11b/g/n
  2. Soft AP mode - read smooth WiFi setup process
@@ -26,7 +26,7 @@ A detailed description of the pin mapping can be found in the pin-mapping folder
 * Sheet 1: Overview of the pin-out.
 * Sheet 2: Detailed description of USI module pin-out and its internal mapping to the microcontroller and WiFi radio.
 
-#### Pin Descriptions:
+### Pin Descriptions:
 - **VIN:** This is the power supply pin to the Photon with a voltage range of 3.6 to 5.5VDC (internally regulated down to 3.3VDC). When the Photon is powered via its USB port, this pin will *ouput* a voltage of approximately 4.7VDC. Why 4.7 and not 5? Well, the actual voltage will be the USB voltage, which is normally 5, minus the forward voltage drop (0.3V) of the protection diode.
 - **RST:** This is an active-low reset pin for the Photon.
 - **VBAT:** Supply to the internal RTC, backup registers and SRAM (1.8 to 3.3VDC).
@@ -40,4 +40,9 @@ A detailed description of the pin mapping can be found in the pin-mapping folder
 
 Please review the spreadsheet under the pin-mapping folder to better understand the alternate functions of the GPIO pins.
 
+#License
 
+Designed by Spark IO. Distributed under a Creative Commons Attribution, Share-Alike licenses.
+Development kits based on this product should be distributed under a similar license.
+Commercial products using the Photon as a reference design need not comply with this license; further questions can be sent to hello@spark.io.
+Check license.txt for more information.
