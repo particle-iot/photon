@@ -1,4 +1,4 @@
-### (Early Access)
+### Photon
 
 The Spark Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.
 
