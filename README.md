@@ -20,7 +20,7 @@ Compared to the Spark Core, the Photon introduces some additional hardware featu
  2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).
  3. Pin A3 now features a DAC (channel 2)
  4. Pin A6 is changed to DAC and exposes a DAC (channel 1).
- 5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC or to WAKEUP (rising edge) the module from sleep/standby modes.
+ 5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC input, PWM or to WAKEUP (rising edge) the module from sleep/standby modes.
 
 A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.
 * Sheet 1: Overview of the pin-out.
