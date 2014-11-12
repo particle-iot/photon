@@ -19,7 +19,7 @@ Compared to the Spark Core, the Photon introduces some additional hardware featu
  1. Pin 3V3* is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.
  2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).
  3. Pin A3 now features a DAC (channel 2)
- 4. Pin A6 is changed to DAC and exposes a DAC (channel 1). This pin is no more an ADC pin.
+ 4. Pin A6 is changed to DAC and exposes a DAC (channel 1).
  5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC or to WAKEUP (rising edge) the module from sleep/standby modes.
 
 A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.
@@ -34,7 +34,7 @@ A detailed description of the pin mapping can be found in the pin-mapping folder
 - **WKP:** This pin allows you to wakeup the module from sleep/standby modes. When not used as a WAKEUP, this pin can also be used as a digital GPIO, ADC input or PWM.
 - **D0 - D1:** These are _digital only_ GPIO pins.
 - **A0 - A5:** These can be used as digital GPIOs or as ADC inputs.
-- **DAC:** This pin can be used as a digital GPIO or as a DAC ouput.
+- **DAC:** This pin can be used as a digital GPIO, ADC input or as a DAC ouput.
 - **RX:** Primarily used as UART RX, but can also be used as a digital GPIO, ADC input or PWM.
 - **TX:** Primarily used as UART TX, but can also be used as a digital GPIO, ADC input or PWM.
 
