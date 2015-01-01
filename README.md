@@ -32,7 +32,7 @@ A detailed description of the pin mapping can be found in the pin-mapping folder
 - **VBAT:** Supply to the internal RTC, backup registers and SRAM (1.8 to 3.3VDC).
 - **3V3:** This pin is the output of the on-board regulator and is internally connected to the VDD of the WiFi module. When powering the Photon via VIN or the USB port, this pin will *output* a voltage of 3.3VDC. This pin can also be used to power the Photon directly (max input 3.3VDC). **NOTE:** When powering the Photon via this pin, do not put power on the VIN pin.
 - **WKP:** This pin allows you to wakeup the module from sleep/standby modes. When not used as a WAKEUP, this pin can also be used as a digital GPIO, ADC input or PWM.
-- **D0 - D1:** These are _digital only_ GPIO pins.
+- **D0 - D7:** These are _digital only_ GPIO pins.
 - **A0 - A5:** These can be used as digital GPIOs or as ADC inputs.
 - **DAC:** This pin can be used as a digital GPIO, ADC input or as a DAC ouput.
 - **RX:** Primarily used as UART RX, but can also be used as a digital GPIO, ADC input or PWM.
