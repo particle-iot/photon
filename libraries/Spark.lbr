@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -73,6 +75,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
@@ -86,6 +89,7 @@
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="LOGO" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -95,6 +99,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -4743,6 +4748,34 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2
 <pad name="5" x="0" y="-10.16" drill="1.016" diameter="1.778" rot="R180"/>
 <pad name="@5" x="-1.27" y="-10.16" drill="0.635" diameter="1.016" rot="R180"/>
 </package>
+<package name="PHOTON-TOP-SS">
+<text x="3.048" y="3.1496" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A0</text>
+<text x="3.048" y="5.9436" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A1</text>
+<text x="3.048" y="8.2296" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A2</text>
+<text x="3.048" y="23.4442" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">RX</text>
+<text x="3.048" y="13.3096" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A4</text>
+<text x="3.048" y="10.8204" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A3</text>
+<text x="3.048" y="15.8496" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A5</text>
+<text x="3.0734" y="17.8054" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">DAC</text>
+<text x="3.048" y="20.6756" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">WKP</text>
+<text x="8.1026" y="23.114" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">MODE</text>
+<text x="14.3764" y="23.114" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">RST</text>
+<text x="17.2466" y="4.4704" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D0</text>
+<text x="17.2466" y="6.9342" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D1</text>
+<text x="17.2466" y="9.5504" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D2</text>
+<text x="17.2466" y="12.0904" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D3</text>
+<text x="17.2466" y="14.6558" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D4</text>
+<text x="17.2466" y="17.1704" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D5</text>
+<text x="17.2466" y="19.7104" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D6</text>
+<text x="17.2466" y="22.2504" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D7</text>
+<text x="17.2212" y="24.9936" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">GND</text>
+<text x="17.2466" y="28.0416" size="0.762" layer="21" font="vector" ratio="12" rot="SR270">VBAT</text>
+<text x="17.2212" y="30.353" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">RST</text>
+<text x="17.2466" y="32.8168" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">3V3</text>
+<text x="3.048" y="26.035" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">TX</text>
+<text x="3.048" y="28.1686" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">GND</text>
+<text x="3.048" y="30.8102" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">VIN</text>
+</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -9242,6 +9275,13 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2
 <pin name="2" x="0" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 <pin name="1" x="0" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="PHOTON-TOP-SS">
+<text x="0" y="0" size="2.54" layer="94">TOP SILKSCREEN</text>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="35.56" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-2.54" x2="35.56" y2="5.08" width="0.254" layer="94"/>
+<wire x1="35.56" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UCC28700">
@@ -11326,6 +11366,18 @@ SRN6045- 33uH, 20% 1.4A</description>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PHOTON-TOP-SS">
+<gates>
+<gate name="G$1" symbol="PHOTON-TOP-SS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PHOTON-TOP-SS">
 <technologies>
 <technology name=""/>
 </technologies>
