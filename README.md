@@ -1,6 +1,6 @@
 # Photon
 
-The Spark Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.
+The Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.
 
 The development kit will have a similar footprint and will be as close to drop-in compatible as possible with the Spark Core.
 
@@ -13,6 +13,8 @@ The development kit will have a similar footprint and will be as close to drop-i
  	- 128KB RAM
  	- 120 MHz clock
  4. Measures 12mm x 11mm x 1.3mm
+
+The Photon is in its early stages of development, and some of the features are subject to minor changes as we start testing and optimizing the design before the final manufacturing run. 
 
 Compared to the Spark Core, the Photon introduces some additional hardware features and changes:
 
@@ -39,6 +41,12 @@ A detailed description of the pin mapping can be found in the pin-mapping folder
 - **TX:** Primarily used as UART TX, but can also be used as a digital GPIO, ADC input or PWM.
 
 Please review the spreadsheet under the pin-mapping folder to better understand the alternate functions of the GPIO pins.
+
+### Eagle (schematic and pcb layout):
+Under the `eagle` folder, you'll find the history of Photon designs.
+ 1. **cam-drc:** Contains CAM Jobs (for creating gerbers) and DRC (Design Rule) files.
+ 2. **photon_v001:** The initial photon design.  This version of the design uses the same dimensions as the Spark Core and provides through-hole headers for mounting.
+ 3. **photon_v010:** Several versions later, numerous tweaks and additions to the schematic, smaller less blinding RGB LED, aligned D7 LED with D7 pin, new SMPS voltage regulator, castellated and non-castellated have been merged, new slightly larger higher gain antenna, Bluetooth Co-existance pins are broken out to pads for a 1.27mm pitch (0.050") connector, pads on the bottom side of the board were added for the RGB LED, and MODE button connections and are centered on the 0.1" grid, and RF switch for software selection of u.FL vs Chip Ant. RF Test board's for versions are included to make tuning of matching components in RF stage easier. There is a second Photon design here with antenna scooted to the left 0.027" to give more clearance between D0 pin and antenna.  C1 in Pi filter was removed to make room for this tighter layout.
 
 #License
 
