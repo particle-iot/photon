@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5022,6 +5022,55 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2
 <text x="6.096" y="23.495" size="0.508" layer="51" font="vector">PCB ANTENNA AREA</text>
 <text x="5.461" y="21.971" size="0.508" layer="51" font="vector">KEEP FREE OF COPPER</text>
 </package>
+<package name="SPARK_PHOTON_SMD">
+<smd name="P$21" x="18.288" y="-7.62" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$22" x="18.288" y="-5.08" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$23" x="18.288" y="-2.54" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$24" x="18.288" y="0" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$1" x="-0.508" y="0" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$2" x="-0.508" y="-2.54" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$3" x="-0.508" y="-5.08" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$4" x="-0.508" y="-7.62" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$5" x="-0.508" y="-10.16" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$6" x="-0.508" y="-12.7" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$7" x="-0.508" y="-15.24" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$8" x="-0.508" y="-17.78" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$9" x="-0.508" y="-20.32" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$10" x="-0.508" y="-22.86" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$11" x="-0.508" y="-25.4" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$12" x="-0.508" y="-27.94" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$17" x="18.288" y="-17.78" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$18" x="18.288" y="-15.24" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$19" x="18.288" y="-12.7" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$20" x="18.288" y="-10.16" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$13" x="18.288" y="-27.94" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$14" x="18.288" y="-25.4" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$15" x="18.288" y="-22.86" dx="3.302" dy="1.905" layer="1"/>
+<smd name="P$16" x="18.288" y="-20.32" dx="3.302" dy="1.905" layer="1"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="19.05" y="-29.845" size="1.27" layer="27" rot="R180">&gt;VALUE</text>
+<wire x1="19.05" y1="1.27" x2="19.05" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="-1.27" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="12.7" y1="3.81" x2="12.7" y2="5.08" width="0.3048" layer="21"/>
+<wire x1="12.7" y1="5.08" x2="5.08" y2="5.08" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="3.81" x2="5.08" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="12.7" y1="3.81" x2="19.05" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.3048" layer="21"/>
+<wire x1="12.7" y1="1.27" x2="12.7" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="-29.21" x2="1.27" y2="-31.75" width="0.3048" layer="21"/>
+<wire x1="1.27" y1="-31.75" x2="16.51" y2="-31.75" width="0.3048" layer="21"/>
+<wire x1="16.51" y1="-31.75" x2="19.05" y2="-29.21" width="0.3048" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-29.21" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-29.21" x2="1.27" y2="-29.21" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-29.21" x2="1.27" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="1.27" x2="19.05" y2="-29.21" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="-29.21" x2="16.51" y2="-29.21" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="-29.21" x2="16.51" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="16.51" y1="1.27" x2="19.05" y2="1.27" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -9705,6 +9754,36 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2
 <wire x1="91.44" y1="96.52" x2="91.44" y2="0" width="0.254" layer="94"/>
 <wire x1="91.44" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 </symbol>
+<symbol name="SPARK_PHOTON">
+<wire x1="-12.7" y1="-30.48" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="12.7" y1="30.48" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
+<pin name="VIN" x="-17.78" y="27.94" length="middle" direction="pwr"/>
+<pin name="GND@2" x="-17.78" y="22.86" length="middle" direction="pwr"/>
+<pin name="TX" x="-17.78" y="17.78" length="middle"/>
+<pin name="RX" x="-17.78" y="12.7" length="middle"/>
+<pin name="WKP" x="-17.78" y="7.62" length="middle"/>
+<pin name="DAC" x="-17.78" y="2.54" length="middle"/>
+<pin name="A5" x="-17.78" y="-2.54" length="middle"/>
+<pin name="A4" x="-17.78" y="-7.62" length="middle"/>
+<pin name="A3" x="-17.78" y="-12.7" length="middle"/>
+<pin name="A2" x="-17.78" y="-17.78" length="middle"/>
+<pin name="A1" x="-17.78" y="-22.86" length="middle"/>
+<pin name="A0" x="-17.78" y="-27.94" length="middle"/>
+<pin name="3V3" x="17.78" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="!RST" x="17.78" y="22.86" length="middle" rot="R180"/>
+<pin name="VBAT" x="17.78" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND@21" x="17.78" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="D7" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="D6" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="D5" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="D4" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="D3" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="D2" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="D1" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="D0" x="17.78" y="-27.94" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UCC28700">
@@ -11931,6 +12010,44 @@ SRN6045- 33uH, 20% 1.4A</description>
 <connect gate="G$1" pin="WL_REG_ON@7" pad="7"/>
 <connect gate="G$1" pin="WL_SLEEP_CLK@60" pad="60"/>
 <connect gate="G$1" pin="\MICRO_GPIO8@46" pad="46"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPARK_PHOTON">
+<gates>
+<gate name="G$1" symbol="SPARK_PHOTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPARK_PHOTON_SMD">
+<connects>
+<connect gate="G$1" pin="!RST" pad="P$23"/>
+<connect gate="G$1" pin="3V3" pad="P$24"/>
+<connect gate="G$1" pin="A0" pad="P$12"/>
+<connect gate="G$1" pin="A1" pad="P$11"/>
+<connect gate="G$1" pin="A2" pad="P$10"/>
+<connect gate="G$1" pin="A3" pad="P$9"/>
+<connect gate="G$1" pin="A4" pad="P$8"/>
+<connect gate="G$1" pin="A5" pad="P$7"/>
+<connect gate="G$1" pin="D0" pad="P$13"/>
+<connect gate="G$1" pin="D1" pad="P$14"/>
+<connect gate="G$1" pin="D2" pad="P$15"/>
+<connect gate="G$1" pin="D3" pad="P$16"/>
+<connect gate="G$1" pin="D4" pad="P$17"/>
+<connect gate="G$1" pin="D5" pad="P$18"/>
+<connect gate="G$1" pin="D6" pad="P$19"/>
+<connect gate="G$1" pin="D7" pad="P$20"/>
+<connect gate="G$1" pin="DAC" pad="P$6"/>
+<connect gate="G$1" pin="GND@2" pad="P$2"/>
+<connect gate="G$1" pin="GND@21" pad="P$21"/>
+<connect gate="G$1" pin="RX" pad="P$4"/>
+<connect gate="G$1" pin="TX" pad="P$3"/>
+<connect gate="G$1" pin="VBAT" pad="P$22"/>
+<connect gate="G$1" pin="VIN" pad="P$1"/>
+<connect gate="G$1" pin="WKP" pad="P$5"/>
 </connects>
 <technologies>
 <technology name=""/>
