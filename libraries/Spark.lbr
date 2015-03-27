@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5021,6 +5021,37 @@ Source: http://www.analog.com/static/imported-files/data_sheets/ADA4853-1_4853-2
 <text x="0.508" y="26.797" size="0.508" layer="51" font="vector">75</text>
 <text x="6.096" y="23.495" size="0.508" layer="51" font="vector">PCB ANTENNA AREA</text>
 <text x="5.461" y="21.971" size="0.508" layer="51" font="vector">KEEP FREE OF COPPER</text>
+</package>
+<package name="TP60_BOT">
+<smd name="P$1" x="0" y="0" dx="1.524" dy="1.524" layer="16" cream="no"/>
+</package>
+<package name="PHOTON-TOP-SS-2">
+<text x="3.048" y="3.1496" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A0</text>
+<text x="3.048" y="5.9436" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A1</text>
+<text x="3.048" y="8.2296" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A2</text>
+<text x="3.048" y="23.4442" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">RX</text>
+<text x="3.048" y="13.3096" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A4</text>
+<text x="3.048" y="10.8204" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A3</text>
+<text x="3.048" y="15.8496" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">A5</text>
+<text x="3.0734" y="17.8054" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">DAC</text>
+<text x="3.048" y="20.6756" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">WKP</text>
+<text x="4.064" y="26.543" size="0.8128" layer="21" font="vector" ratio="12">SETUP</text>
+<text x="11.43" y="26.543" size="0.8128" layer="21" font="vector" ratio="12">RESET</text>
+<text x="17.2466" y="4.4704" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D0</text>
+<text x="17.2466" y="6.9342" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D1</text>
+<text x="17.2466" y="9.5504" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D2</text>
+<text x="17.2466" y="12.0904" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D3</text>
+<text x="17.2466" y="14.6558" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D4</text>
+<text x="17.2466" y="17.1704" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D5</text>
+<text x="17.2466" y="19.7104" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D6</text>
+<text x="17.2466" y="22.2504" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">D7</text>
+<text x="17.2212" y="24.9936" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">GND</text>
+<text x="17.2466" y="28.0416" size="0.762" layer="21" font="vector" ratio="12" rot="SR270">VBAT</text>
+<text x="17.2212" y="30.353" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">RST</text>
+<text x="17.2466" y="32.8168" size="0.8128" layer="21" font="vector" ratio="12" rot="SR270">3V3</text>
+<text x="3.048" y="26.035" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">TX</text>
+<text x="3.048" y="28.1686" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">GND</text>
+<text x="3.048" y="30.8102" size="0.8128" layer="21" font="vector" ratio="12" rot="R90">VIN</text>
 </package>
 </packages>
 <symbols>
@@ -11754,6 +11785,14 @@ SRN6045- 33uH, 20% 1.4A</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="3" package="TP60_BOT">
+<connects>
+<connect gate="G$1" pin="TP" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="AT7020">
@@ -11801,6 +11840,11 @@ SRN6045- 33uH, 20% 1.4A</description>
 </gates>
 <devices>
 <device name="" package="PHOTON-TOP-SS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2" package="PHOTON-TOP-SS-2">
 <technologies>
 <technology name=""/>
 </technologies>
