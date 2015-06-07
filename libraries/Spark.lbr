@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -10073,7 +10073,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <pin name="GND@4" x="25.4" y="-5.08" length="middle" rot="R90"/>
 <pin name="VDDIO_3V3_WL@5" x="45.72" y="101.6" length="middle" rot="R270"/>
 <pin name="GND@6" x="27.94" y="-5.08" length="middle" rot="R90"/>
-<pin name="WL_REG_ON@7" x="30.48" y="101.6" length="middle" rot="R270"/>
+<pin name="WL_REG_ON@7" x="33.02" y="101.6" length="middle" rot="R270"/>
 <pin name="NC@8" x="96.52" y="10.16" length="middle" rot="R180"/>
 <pin name="NC@9" x="96.52" y="12.7" length="middle" rot="R180"/>
 <pin name="NC@10" x="96.52" y="15.24" length="middle" rot="R180"/>
@@ -10084,53 +10084,53 @@ RECOMMENDED ON ALL LAYERS</text>
 <pin name="GND@15" x="33.02" y="-5.08" length="middle" rot="R90"/>
 <pin name="WL_JTAG_TDI@16" x="96.52" y="68.58" length="middle" rot="R180"/>
 <pin name="WL_JTAG_TCK@17" x="96.52" y="66.04" length="middle" rot="R180"/>
-<pin name="WL_JTAG_TRST@18" x="96.52" y="63.5" length="middle" rot="R180"/>
+<pin name="WL_JTAG_!TRST!@18" x="96.52" y="63.5" length="middle" rot="R180"/>
 <pin name="WL_JTAG_TMS@19" x="96.52" y="60.96" length="middle" rot="R180"/>
 <pin name="WL_JTAG_TDO@20" x="96.52" y="58.42" length="middle" rot="R180"/>
-<pin name="MICRO_SPI1_MISO@21" x="-5.08" y="55.88" length="middle"/>
-<pin name="MICRO_SPI1_SCK@22" x="-5.08" y="53.34" length="middle"/>
-<pin name="MICRO_SPI1_MOSI@23" x="-5.08" y="50.8" length="middle"/>
-<pin name="MICRO_SPI1_NSS@24" x="-5.08" y="48.26" length="middle"/>
+<pin name="MICRO_SPI1_MISO/PA6@21" x="-5.08" y="55.88" length="middle"/>
+<pin name="MICRO_SPI1_SCK/PA5@22" x="-5.08" y="53.34" length="middle"/>
+<pin name="MICRO_SPI1_MOSI/PA7@23" x="-5.08" y="50.8" length="middle"/>
+<pin name="MICRO_SPI1_!SS!/PA4@24" x="-5.08" y="48.26" length="middle"/>
 <pin name="GND@25" x="35.56" y="-5.08" length="middle" rot="R90"/>
 <pin name="VDD_3V3@26" x="38.1" y="101.6" length="middle" rot="R270"/>
 <pin name="VDD_3V3@27" x="40.64" y="101.6" length="middle" rot="R270"/>
 <pin name="GND@28" x="38.1" y="-5.08" length="middle" rot="R90"/>
-<pin name="MICRO_UART2_RTS@29" x="-5.08" y="35.56" length="middle"/>
-<pin name="MICRO_UART2_CTS@30" x="-5.08" y="33.02" length="middle"/>
-<pin name="MICRO_UART2_RXD@31" x="-5.08" y="30.48" length="middle"/>
-<pin name="MICRO_UART2_TXD@32" x="-5.08" y="27.94" length="middle"/>
+<pin name="MICRO_UART2_RTS/PA1@29" x="-5.08" y="35.56" length="middle"/>
+<pin name="MICRO_UART2_CTS/PA0@30" x="-5.08" y="33.02" length="middle"/>
+<pin name="MICRO_UART2_RXD/PA3@31" x="-5.08" y="30.48" length="middle"/>
+<pin name="MICRO_UART2_TXD/PA2@32" x="-5.08" y="27.94" length="middle"/>
 <pin name="TESTMODE@33" x="96.52" y="35.56" length="middle" rot="R180"/>
-<pin name="MICRO_RST_N@34" x="96.52" y="30.48" length="middle" rot="R180"/>
-<pin name="MICRO_I2C1_SCL@35" x="-5.08" y="43.18" length="middle"/>
-<pin name="MICRO_I2C1_SDA@36" x="-5.08" y="40.64" length="middle"/>
+<pin name="MICRO_!RST!@34" x="96.52" y="30.48" length="middle" rot="R180"/>
+<pin name="MICRO_I2C1_SCL/PB6@35" x="-5.08" y="43.18" length="middle"/>
+<pin name="MICRO_I2C1_SDA/PB7@36" x="-5.08" y="40.64" length="middle"/>
 <pin name="GND@37" x="40.64" y="-5.08" length="middle" rot="R90"/>
-<pin name="VBAT_MICRO@38" x="60.96" y="101.6" length="middle" rot="R270"/>
+<pin name="VBAT_MICRO@38" x="58.42" y="101.6" length="middle" rot="R270"/>
 <pin name="GND@39" x="43.18" y="-5.08" length="middle" rot="R90"/>
-<pin name="MICRO_GPIO1@40" x="-5.08" y="86.36" length="middle"/>
-<pin name="MICRO_GPIO2@41" x="-5.08" y="83.82" length="middle"/>
-<pin name="MICRO_GPIO3@42" x="-5.08" y="81.28" length="middle"/>
-<pin name="MICRO_GPIO5@43" x="-5.08" y="78.74" length="middle"/>
-<pin name="MICRO_GPIO6@44" x="-5.08" y="76.2" length="middle"/>
-<pin name="MICRO_GPIO7@45" x="-5.08" y="73.66" length="middle"/>
-<pin name="\MICRO_GPIO8@46" x="-5.08" y="71.12" length="middle"/>
-<pin name="MICRO_GPIO9@47" x="-5.08" y="68.58" length="middle"/>
-<pin name="MICRO_GPIO12@48" x="-5.08" y="66.04" length="middle"/>
-<pin name="MICRO_GPIO13@49" x="-5.08" y="63.5" length="middle"/>
-<pin name="MICRO_GPIO14@50" x="-5.08" y="60.96" length="middle"/>
-<pin name="MICRO_JTAG_TRST@51" x="96.52" y="83.82" length="middle" rot="R180"/>
-<pin name="MICRO_JTAG_TDO@52" x="96.52" y="81.28" length="middle" rot="R180"/>
-<pin name="MICRO_JTAG_TDI@53" x="96.52" y="78.74" length="middle" rot="R180"/>
-<pin name="MICRO_JTAG_TMS@54" x="96.52" y="76.2" length="middle" rot="R180"/>
-<pin name="MICRO_JTAG_TCK@55" x="96.52" y="73.66" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_1/PB0@40" x="-5.08" y="86.36" length="middle"/>
+<pin name="MICRO_GPIO_2/PB1@41" x="-5.08" y="83.82" length="middle"/>
+<pin name="MICRO_GPIO_3/PC0@42" x="-5.08" y="81.28" length="middle"/>
+<pin name="MICRO_GPIO_5/PC3@43" x="-5.08" y="78.74" length="middle"/>
+<pin name="MICRO_GPIO_6/PC4@44" x="-5.08" y="76.2" length="middle"/>
+<pin name="MICRO_GPIO_7/PB5@45" x="-5.08" y="73.66" length="middle"/>
+<pin name="\MICRO_GPIO_8/PC7@46" x="-5.08" y="71.12" length="middle"/>
+<pin name="MICRO_GPIO_9/PC13@47" x="-5.08" y="68.58" length="middle"/>
+<pin name="MICRO_GPIO_12/PC1@48" x="-5.08" y="66.04" length="middle"/>
+<pin name="MICRO_GPIO_13/PC2@49" x="-5.08" y="63.5" length="middle"/>
+<pin name="MICRO_GPIO_14/PC5@50" x="-5.08" y="60.96" length="middle"/>
+<pin name="MICRO_JTAG_!TRST!/PB4@51" x="96.52" y="83.82" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TDO/PB3@52" x="96.52" y="81.28" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TDI/PA15@53" x="96.52" y="78.74" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TMS/PA13@54" x="96.52" y="76.2" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TCK/PA14@55" x="96.52" y="73.66" length="middle" rot="R180"/>
 <pin name="BTCX_STATUS@56" x="96.52" y="53.34" length="middle" rot="R180"/>
 <pin name="BTCX_RF_ACTIVE@57" x="96.52" y="50.8" length="middle" rot="R180"/>
 <pin name="BTCX_TXCONF@58" x="96.52" y="48.26" length="middle" rot="R180"/>
 <pin name="GND@59" x="45.72" y="-5.08" length="middle" rot="R90"/>
 <pin name="WL_SLEEP_CLK@60" x="96.52" y="40.64" length="middle" rot="R180"/>
-<pin name="MICRO_UART1_RTS@61" x="-5.08" y="22.86" length="middle"/>
-<pin name="MICRO_UART1_CTS@62" x="-5.08" y="20.32" length="middle"/>
-<pin name="MICRO_UART1_RXD@63" x="-5.08" y="17.78" length="middle"/>
-<pin name="MICRO_UART1_TXD@64" x="-5.08" y="15.24" length="middle"/>
+<pin name="MICRO_UART1_RTS/PA12@61" x="-5.08" y="22.86" length="middle"/>
+<pin name="MICRO_UART1_CTS/PA11@62" x="-5.08" y="20.32" length="middle"/>
+<pin name="MICRO_UART1_RXD/PA10@63" x="-5.08" y="17.78" length="middle"/>
+<pin name="MICRO_UART1_TXD/PA9@64" x="-5.08" y="15.24" length="middle"/>
 <pin name="GND@65" x="48.26" y="-5.08" length="middle" rot="R90"/>
 <pin name="GND@66" x="50.8" y="-5.08" length="middle" rot="R90"/>
 <pin name="GND@67" x="53.34" y="-5.08" length="middle" rot="R90"/>
@@ -10144,6 +10144,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <wire x1="0" y1="96.52" x2="91.44" y2="96.52" width="0.254" layer="94"/>
 <wire x1="91.44" y1="96.52" x2="91.44" y2="0" width="0.254" layer="94"/>
 <wire x1="91.44" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="2.3368" y="10.16" size="1.524" layer="97">P1_MODULE_PIN_NAME/STM32_PIN_NAME</text>
 </symbol>
 <symbol name="PHOTON">
 <wire x1="-11.43" y1="-30.48" x2="11.43" y2="-30.48" width="0.254" layer="94"/>
@@ -12401,36 +12402,36 @@ SRN6045- 33uH, 20% 1.4A</description>
 <connect gate="G$1" pin="GND@71" pad="71"/>
 <connect gate="G$1" pin="GND@72" pad="72"/>
 <connect gate="G$1" pin="GND@73" pad="73"/>
-<connect gate="G$1" pin="MICRO_GPIO12@48" pad="48"/>
-<connect gate="G$1" pin="MICRO_GPIO13@49" pad="49"/>
-<connect gate="G$1" pin="MICRO_GPIO14@50" pad="50"/>
-<connect gate="G$1" pin="MICRO_GPIO1@40" pad="40"/>
-<connect gate="G$1" pin="MICRO_GPIO2@41" pad="41"/>
-<connect gate="G$1" pin="MICRO_GPIO3@42" pad="42"/>
-<connect gate="G$1" pin="MICRO_GPIO5@43" pad="43"/>
-<connect gate="G$1" pin="MICRO_GPIO6@44" pad="44"/>
-<connect gate="G$1" pin="MICRO_GPIO7@45" pad="45"/>
-<connect gate="G$1" pin="MICRO_GPIO9@47" pad="47"/>
-<connect gate="G$1" pin="MICRO_I2C1_SCL@35" pad="35"/>
-<connect gate="G$1" pin="MICRO_I2C1_SDA@36" pad="36"/>
-<connect gate="G$1" pin="MICRO_JTAG_TCK@55" pad="55"/>
-<connect gate="G$1" pin="MICRO_JTAG_TDI@53" pad="53"/>
-<connect gate="G$1" pin="MICRO_JTAG_TDO@52" pad="52"/>
-<connect gate="G$1" pin="MICRO_JTAG_TMS@54" pad="54"/>
-<connect gate="G$1" pin="MICRO_JTAG_TRST@51" pad="51"/>
-<connect gate="G$1" pin="MICRO_RST_N@34" pad="34"/>
-<connect gate="G$1" pin="MICRO_SPI1_MISO@21" pad="21"/>
-<connect gate="G$1" pin="MICRO_SPI1_MOSI@23" pad="23"/>
-<connect gate="G$1" pin="MICRO_SPI1_NSS@24" pad="24"/>
-<connect gate="G$1" pin="MICRO_SPI1_SCK@22" pad="22"/>
-<connect gate="G$1" pin="MICRO_UART1_CTS@62" pad="62"/>
-<connect gate="G$1" pin="MICRO_UART1_RTS@61" pad="61"/>
-<connect gate="G$1" pin="MICRO_UART1_RXD@63" pad="63"/>
-<connect gate="G$1" pin="MICRO_UART1_TXD@64" pad="64"/>
-<connect gate="G$1" pin="MICRO_UART2_CTS@30" pad="30"/>
-<connect gate="G$1" pin="MICRO_UART2_RTS@29" pad="29"/>
-<connect gate="G$1" pin="MICRO_UART2_RXD@31" pad="31"/>
-<connect gate="G$1" pin="MICRO_UART2_TXD@32" pad="32"/>
+<connect gate="G$1" pin="MICRO_!RST!@34" pad="34"/>
+<connect gate="G$1" pin="MICRO_GPIO_1/PB0@40" pad="40"/>
+<connect gate="G$1" pin="MICRO_GPIO_12/PC1@48" pad="48"/>
+<connect gate="G$1" pin="MICRO_GPIO_13/PC2@49" pad="49"/>
+<connect gate="G$1" pin="MICRO_GPIO_14/PC5@50" pad="50"/>
+<connect gate="G$1" pin="MICRO_GPIO_2/PB1@41" pad="41"/>
+<connect gate="G$1" pin="MICRO_GPIO_3/PC0@42" pad="42"/>
+<connect gate="G$1" pin="MICRO_GPIO_5/PC3@43" pad="43"/>
+<connect gate="G$1" pin="MICRO_GPIO_6/PC4@44" pad="44"/>
+<connect gate="G$1" pin="MICRO_GPIO_7/PB5@45" pad="45"/>
+<connect gate="G$1" pin="MICRO_GPIO_9/PC13@47" pad="47"/>
+<connect gate="G$1" pin="MICRO_I2C1_SCL/PB6@35" pad="35"/>
+<connect gate="G$1" pin="MICRO_I2C1_SDA/PB7@36" pad="36"/>
+<connect gate="G$1" pin="MICRO_JTAG_!TRST!/PB4@51" pad="51"/>
+<connect gate="G$1" pin="MICRO_JTAG_TCK/PA14@55" pad="55"/>
+<connect gate="G$1" pin="MICRO_JTAG_TDI/PA15@53" pad="53"/>
+<connect gate="G$1" pin="MICRO_JTAG_TDO/PB3@52" pad="52"/>
+<connect gate="G$1" pin="MICRO_JTAG_TMS/PA13@54" pad="54"/>
+<connect gate="G$1" pin="MICRO_SPI1_!SS!/PA4@24" pad="24"/>
+<connect gate="G$1" pin="MICRO_SPI1_MISO/PA6@21" pad="21"/>
+<connect gate="G$1" pin="MICRO_SPI1_MOSI/PA7@23" pad="23"/>
+<connect gate="G$1" pin="MICRO_SPI1_SCK/PA5@22" pad="22"/>
+<connect gate="G$1" pin="MICRO_UART1_CTS/PA11@62" pad="62"/>
+<connect gate="G$1" pin="MICRO_UART1_RTS/PA12@61" pad="61"/>
+<connect gate="G$1" pin="MICRO_UART1_RXD/PA10@63" pad="63"/>
+<connect gate="G$1" pin="MICRO_UART1_TXD/PA9@64" pad="64"/>
+<connect gate="G$1" pin="MICRO_UART2_CTS/PA0@30" pad="30"/>
+<connect gate="G$1" pin="MICRO_UART2_RTS/PA1@29" pad="29"/>
+<connect gate="G$1" pin="MICRO_UART2_RXD/PA3@31" pad="31"/>
+<connect gate="G$1" pin="MICRO_UART2_TXD/PA2@32" pad="32"/>
 <connect gate="G$1" pin="NC@10" pad="10"/>
 <connect gate="G$1" pin="NC@11" pad="11"/>
 <connect gate="G$1" pin="NC@12" pad="12"/>
@@ -12444,14 +12445,14 @@ SRN6045- 33uH, 20% 1.4A</description>
 <connect gate="G$1" pin="VDDIO_3V3_WL@5" pad="5"/>
 <connect gate="G$1" pin="VDD_3V3@26" pad="26"/>
 <connect gate="G$1" pin="VDD_3V3@27" pad="27"/>
+<connect gate="G$1" pin="WL_JTAG_!TRST!@18" pad="18"/>
 <connect gate="G$1" pin="WL_JTAG_TCK@17" pad="17"/>
 <connect gate="G$1" pin="WL_JTAG_TDI@16" pad="16"/>
 <connect gate="G$1" pin="WL_JTAG_TDO@20" pad="20"/>
 <connect gate="G$1" pin="WL_JTAG_TMS@19" pad="19"/>
-<connect gate="G$1" pin="WL_JTAG_TRST@18" pad="18"/>
 <connect gate="G$1" pin="WL_REG_ON@7" pad="7"/>
 <connect gate="G$1" pin="WL_SLEEP_CLK@60" pad="60"/>
-<connect gate="G$1" pin="\MICRO_GPIO8@46" pad="46"/>
+<connect gate="G$1" pin="\MICRO_GPIO_8/PC7@46" pad="46"/>
 </connects>
 <technologies>
 <technology name=""/>
