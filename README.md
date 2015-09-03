@@ -1,10 +1,13 @@
 # Photon
 
 The Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.
+'포톤'은 USI의 WM-N0BM-09 모듈을 기반으로 하는 매우 작은 와이파이 개발 키트입니다. 이 모듈은 브로드컴의 BCM43362 와이파이 라디오와 STM32F205G 마이크로컨트롤러로 구성되어 있습니다. 
 
 The Photon has a similar footprint and is as close to drop-in compatible as possible with the Spark Core.
+'포톤'은 스파크의 '코어'와 비슷한 구조를고 가지고 있으며 가능한 한 호환이 될 수 있도록 되어 있다.
 
 ### Some highlights of the USI module:
+USI 모듈의 특징
 
  1. IEEE 802.11b/g/n
  2. Soft AP mode - read smooth WiFi setup process
@@ -15,11 +18,16 @@ The Photon has a similar footprint and is as close to drop-in compatible as poss
  4. Measures 12mm x 11mm x 1.3mm
 
 Compared to the Spark Core, the Photon introduces some additional hardware features and changes:
+스파크 '코어'와 비교해보면 '포톤'은 몇가지 하드웨어 기능이 추가, 변화되었다.  
 
  1. Pin 3V3* is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.
+3V3핀은 VBAT로 바뀌었다. 이 핀은 모듈이 대기모드에 있을 때 내부 RTC, 백업 레지스터, SRAM에 전원을 공급하는데 사용될 수 있다. 
  2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).
+
  3. Pin A3 now features a DAC (channel 2)
+
  4. Pin A6 is changed to DAC and exposes a DAC (channel 1).
+
  5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC input, PWM or to WAKEUP (rising edge) the module from sleep/standby modes.
 
 A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.
