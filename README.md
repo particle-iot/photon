@@ -42,6 +42,7 @@ A detailed description of the pin mapping can be found in the pin-mapping folder
 - **VIN:** This is the power supply pin to the Photon with a voltage range of 3.6 to 5.5VDC (internally regulated down to 3.3VDC). When the Photon is powered via its USB port, this pin will *ouput* a voltage of approximately 4.7VDC. Why 4.7 and not 5? Well, the actual voltage will be the USB voltage, which is normally 5, minus the forward voltage drop (0.3V) of the protection diode.
 VIN : 이것은 3.6~5.5VDC(내부적으로 3.3VDC로 레귤레이팅 함) 전압 범위를 갖는 '포톤'의 전력 공급 핀이다. '포톤'이 USB 포트를 통해 전력을 공급받을 때 이 핀은 정확히 4.7VDC의 전압을 '출력'할 것이다. 왜 5가 아닌 4.7일까? 자, 실제전압은 USB 전압(보통 5볼트)에서 보호다이오드의 순방향 전압 강하(0.3볼트)를 뺀다.
 - **RST:** This is an active-low reset pin for the Photon.
+- RST : 
 - **VBAT:** Supply to the internal RTC, backup registers and SRAM (1.8 to 3.3VDC).
 - **3V3:** This pin is the output of the on-board regulator and is internally connected to the VDD of the WiFi module. When powering the Photon via VIN or the USB port, this pin will *output* a voltage of 3.3VDC. This pin can also be used to power the Photon directly (max input 3.3VDC). **NOTE:** When powering the Photon via this pin, do not put power on the VIN pin.
 - **WKP:** This is an active-high input that allows you to wakeup the module from sleep/deep sleep modes. When not used as a WAKEUP, this pin can also be used as a digital GPIO, ADC input or PWM.
