@@ -25,14 +25,17 @@ Compared to the Spark Core, the Photon introduces some additional hardware featu
  2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).
 D1과 D2핀은 CAN통신(각각의 TX와 RX) 을 위해 사용될 수 있다. 
  3. Pin A3 now features a DAC (channel 2)
-
+A3핀은 이제 DAC(채널 2)을 포함하고 있다.
  4. Pin A6 is changed to DAC and exposes a DAC (channel 1).
-
+A6핀은 DAC로 바뀌었고, DAC라고 써져있다.(채널 1)
  5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC input, PWM or to WAKEUP (rising edge) the module from sleep/standby modes.
-
+A7핀은 WKP(Wakeup)으로 바뀌었다. 이 핀은 표준 GPIO, ADC입력, PWM으로 사용할 수 있으며, 슬립/대기 모드의 모듈을 깨우는데(WAKEUP(rising edge:신호가 0에서 1로 상승하는) 사용할 수 있다. 
 A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.
+핀 매핑의 상세한 설명은 이 저장소의 pin-mapping 폴더에서 찾을 수 있다.
 * Sheet 1: Overview of the pin-out.
+시트 1 : 핀 아웃의 개요.
 * Sheet 2: Detailed description of USI module pin-out and its internal mapping to the microcontroller and WiFi radio.
+시트 2 : USI 모듈 핀 아웃, 마이크로컨트롤러 내부 매핑, 와이파이 라디오의 상세한 설명.
 
 ### Pin Descriptions:
 - **VIN:** This is the power supply pin to the Photon with a voltage range of 3.6 to 5.5VDC (internally regulated down to 3.3VDC). When the Photon is powered via its USB port, this pin will *ouput* a voltage of approximately 4.7VDC. Why 4.7 and not 5? Well, the actual voltage will be the USB voltage, which is normally 5, minus the forward voltage drop (0.3V) of the protection diode.
