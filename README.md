@@ -42,17 +42,26 @@ A detailed description of the pin mapping can be found in the pin-mapping folder
 - **VIN:** This is the power supply pin to the Photon with a voltage range of 3.6 to 5.5VDC (internally regulated down to 3.3VDC). When the Photon is powered via its USB port, this pin will *ouput* a voltage of approximately 4.7VDC. Why 4.7 and not 5? Well, the actual voltage will be the USB voltage, which is normally 5, minus the forward voltage drop (0.3V) of the protection diode.
 VIN : 이것은 3.6~5.5VDC(내부적으로 3.3VDC로 레귤레이팅 함) 전압 범위를 갖는 '포톤'의 전력 공급 핀이다. '포톤'이 USB 포트를 통해 전력을 공급받을 때 이 핀은 정확히 4.7VDC의 전압을 '출력'할 것이다. 왜 5가 아닌 4.7일까? 자, 실제전압은 USB 전압(보통 5볼트)에서 보호다이오드의 순방향 전압 강하(0.3볼트)를 뺀다.
 - **RST:** This is an active-low reset pin for the Photon.
-- RST : 
+- RST : 이것은 포톤의 acrive-low 리셋핀이다.
 - **VBAT:** Supply to the internal RTC, backup registers and SRAM (1.8 to 3.3VDC).
+VBAT : 내부 RTC, 백업 레지스터, SRAM에 전원(1.8 ~ 3.3VDC) 공급.
 - **3V3:** This pin is the output of the on-board regulator and is internally connected to the VDD of the WiFi module. When powering the Photon via VIN or the USB port, this pin will *output* a voltage of 3.3VDC. This pin can also be used to power the Photon directly (max input 3.3VDC). **NOTE:** When powering the Photon via this pin, do not put power on the VIN pin.
+3V3 : 이 핀은 온보드 레귤레이터의 출력이며 내부적으로 와이파이 모듈의 VDD(드레인 전원)와 연결되어 있다. VIN이나 USB포트를 통해 포톤에 전원을 공급할 때 이 핀은 3.3VDC의 전압을 '출력'할 것이다. 이 핀은 또한 직접포톤에 전원을 연결(최대 입력 전압 3.3VDC)하기 위해 사용하기도 한다. *NOTE : 이 핀을 통해 포톤에 전원을 공급할 때 VIN 핀으로 전원을 연결하지 말 것. 
 - **WKP:** This is an active-high input that allows you to wakeup the module from sleep/deep sleep modes. When not used as a WAKEUP, this pin can also be used as a digital GPIO, ADC input or PWM.
+WKP : 이것은 당신이 슬립/딥슬립 모드의 모듈을 켜기 위한 active-high 입력핀이다. WAKEUP으로 사용하지 않을 때 이 핀은 또한 디지털 GPIO, ADC입력 또는 PWM으로 사용할 수 있다. 
 - **D0 - D7:** These are _digital only_ GPIO pins.
+D0 - D7 : 이 핀들은 오직 digital GPIO로만 동작한다. 
 - **A0 - A5:** These can be used as digital GPIOs or as ADC inputs.
+A0 - A5 : 이 핀들은 digital GPIO 또는 ADC입력으로 사용할 수 있다. 
 - **DAC:** This pin can be used as a digital GPIO, ADC input or as a DAC ouput.
+DAC : 이 핀들은 digital GPIO, ADC입력 또는 DAC출력으로 사용할 수 있다. 
 - **RX:** Primarily used as UART RX, but can also be used as a digital GPIO, ADC input or PWM.
+RX : 기본적으로 UART RX로 사용하나, digital GPIO, ADC입력 또는 PWM으로 사용할 수 있다. 
 - **TX:** Primarily used as UART TX, but can also be used as a digital GPIO, ADC input or PWM.
+TX : 기본적으로 UART TX로 사용하나, digital GPIO, ADC입력 또는 PWM으로 사용할 수 있다. 
 
 Please review the spreadsheet under the pin-mapping folder to better understand the alternate functions of the GPIO pins.
+
 
 ### Eagle (schematic and pcb layout):
 Under the `eagle` folder, you'll find the history of Photon designs.
