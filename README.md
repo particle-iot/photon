@@ -61,13 +61,18 @@ RX : 기본적으로 UART RX로 사용하나, digital GPIO, ADC입력 또는 PWM
 TX : 기본적으로 UART TX로 사용하나, digital GPIO, ADC입력 또는 PWM으로 사용할 수 있다. 
 
 Please review the spreadsheet under the pin-mapping folder to better understand the alternate functions of the GPIO pins.
-
+GPIO핀의 다른 기능들에 대한 더 나은 이해를 위해서는 pin-mapping 폴더 안의 스프레드시트를 확인하시오.
 
 ### Eagle (schematic and pcb layout):
+이들(회로도와 PCB 레이아웃):
 Under the `eagle` folder, you'll find the history of Photon designs.
+'eagle' 폴더에서 당신은 포톤 설계의 역사를 확인할 수 있다. 
  1. **cam-drc:** Contains CAM Jobs (for creating gerbers) and DRC (Design Rule) files.
+cam-drc : CAM작업(PCB기판을 뜨기 위한 거버 파일 생성을 위한)과 DRC파일(설계규칙)을 포함한다.
  2. **photon_v001:** The initial photon design.  This version of the design uses the same dimensions as the Spark Core and provides through-hole headers for mounting.
+photon_v001 : 초기 '포톤' 설계. 이 설계버전은 스파크 '코어'와 동일한 치수를 사용하며, 장착을 위해 스루홀헤더(관통구멍)를 제공한다. 
  3. **photon_v010:** Several versions later, numerous tweaks and additions to the schematic, smaller less blinding RGB LED, aligned D7 LED with D7 pin, new SMPS voltage regulator, castellated and non-castellated have been merged, new slightly larger higher gain antenna, Bluetooth Co-existance pins are broken out to pads for a 1.27mm pitch (0.050") connector, pads on the bottom side of the board were added for the RGB LED, and MODE button connections and are centered on the 0.1" grid, and RF switch for software selection of u.FL vs Chip Ant. RF Test board's for versions are included to make tuning of matching components in RF stage easier. There is a second Photon design here with antenna scooted to the left 0.027" to give more clearance between D0 pin and antenna.  C1 in Pi filter was removed to make room for this tighter layout.
+
  4. **photon_v019:** Several more versions later, numerous tweaks and additions to the schematic, WM-N-BM-09 soldermask updated, added some GND vias, MODE button label changed to SETUP, increased width of top and bottom (short) sides of PCB 20 mils to allow for v-score (overall board height is now 1.44"), SETUP and RESET buttons and RGB led are not centered on the 0.1" grid anymore but they are all still inline with each other, RF switch was changed to a much smaller 1mm version, 0201 dc blocking capacitors added to all RF ports, Pi filter was tuned to match antenna to 50 ohm impedance, half of the pads on the bottom were enlarged to 60 mils square, added fabrication spec.
 
 #License
