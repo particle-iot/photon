@@ -75,10 +75,16 @@ photon_v001 : 초기 '포톤' 설계. 이 설계버전은 스파크 '코어'와 
 photon_v010 : 몇몇 버전 이후, 작고 눈부신 RGB LED, D7 핀과 D7 LED의 연동, 새로운 SMPS 전압 레귤레이터, 성곽 모양과 비성곽 모양의 통합, 새로운 조금 더 높은 성능의 안테나, 블루투스 공존 핀은 1.27mm 피치(0.050") 커넥터를 위해 면에서 튀어나옴, 보드의 아래쪽 면은 RGB LED를 위해 추가, MODE버튼이 연결되었고 0.1"격자에 집중됨, 그리고 u.FL과 칩 안테나의 소프트웨어적 선택을 위한 RF 스위치, 버전의 RF 테스트 보드는 RF 단계에서 구성요소의 매칭을 쉽게 튜닝할 수 있도록 포함되는 등 설계에 많은 기능의 변화와 추가가 있었다. 안테나에 대한 두번째 '포톤' 설계는 D0핀과 안테나 사이의 간격을 두 주기 위해 왼쪽으로 0.027" 이동하였다. 
 
  4. **photon_v019:** Several more versions later, numerous tweaks and additions to the schematic, WM-N-BM-09 soldermask updated, added some GND vias, MODE button label changed to SETUP, increased width of top and bottom (short) sides of PCB 20 mils to allow for v-score (overall board height is now 1.44"), SETUP and RESET buttons and RGB led are not centered on the 0.1" grid anymore but they are all still inline with each other, RF switch was changed to a much smaller 1mm version, 0201 dc blocking capacitors added to all RF ports, Pi filter was tuned to match antenna to 50 ohm impedance, half of the pads on the bottom were enlarged to 60 mils square, added fabrication spec.
+photon_v019 : 몇몇 버전 이후 WM-N-BM-09의 솔더마스크 업데이트, GND 바이어스 추가, SETUP을 위한 MODE 버튼의 레벨 변화, v-score를 허용하기 위해 PCB 20밀리의 짧은쪽 상판과 하판의 폭 증가(현재 전체보드의 높이는 1.44"), SETUP과 RESET버튼과 RGB LED는 더이상 0.1"격자의 중심에 있지 않으나 여전히 각각 한줄로 있음, RF 스위치는 훨씬 더 작은 1mm버전으로 바뀌었고, 0201 dc 블로킹 캐패시터가 모든 RF 포트에 추가됨, 파이 필터는 50옴 임피던드 안테나에 맞게 조정되었고, 아랫면의 절반은 60제곱밀리미터로 확대되었으며, 제조사양이 추가되는 등 설계에 많은 기능의 변화와 추가가 있었다. 
 
 #License
+라이센스
 
 Designed by Spark IO. Distributed under a Creative Commons Attribution, Share-Alike license.
+Spark IO에서 설계함. Crearive Commons 저작자 표시에 따라 배포, 동일 조건 변경허락.
 Development kits based on this product should be distributed under a similar license.
+이 제품을 기반으로 한 개발 키트는 같은 라이센스 조건하에서만 배포할 수 있다. 
 Commercial products using the Photon as a reference design need not comply with this license; further questions can be sent to hello@particle.io.
+레퍼런스 디자인으로 '포톤'을 사용한 상용 제품은 이 라이센스를 준수할 필요가 없다; 추가 질문은 hello@particle.io로 보낼 수 있다. 
 Check license.txt for more information.
+더 많은 정보를 위해서는 license.txt를 확인한다.
