@@ -30,7 +30,7 @@ A3핀은 이제 DAC(채널 2)을 포함하고 있다.
 A6핀은 DAC로 바뀌었고, DAC라고 써져있다.(채널 1)
 ** 5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC input, PWM or to WAKEUP (rising edge) the module from sleep/standby modes.**
 A7핀은 WKP(Wakeup)으로 바뀌었다. 이 핀은 표준 GPIO, ADC입력, PWM으로 사용할 수 있으며, 슬립/대기 모드의 모듈을 깨우는데(WAKEUP(rising edge:신호가 0에서 1로 상승하는) 사용할 수 있다. 
-A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.
+**A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.**
 핀 매핑의 상세한 설명은 이 저장소의 pin-mapping 폴더에서 찾을 수 있다.
 * Sheet 1: Overview of the pin-out.
 시트 1 : 핀 아웃의 개요.
