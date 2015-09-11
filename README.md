@@ -92,11 +92,5 @@ photon_v019 : 몇몇 버전 이후 WM-N-BM-09의 솔더마스크 업데이트, G
 #License
 라이센스
 
-Designed by Spark IO. Distributed under a Creative Commons Attribution, Share-Alike license.
-Spark IO에서 설계함. Crearive Commons 저작자 표시에 따라 배포, 동일 조건 변경허락.
-Development kits based on this product should be distributed under a similar license.
-이 제품을 기반으로 한 개발 키트는 같은 라이센스 조건하에서만 배포할 수 있다. 
-Commercial products using the Photon as a reference design need not comply with this license; further questions can be sent to hello@particle.io.
-레퍼런스 디자인으로 '포톤'을 사용한 상용 제품은 이 라이센스를 준수할 필요가 없다; 추가 질문은 hello@particle.io로 보낼 수 있다. 
-Check license.txt for more information.
-더 많은 정보를 위해서는 license.txt를 확인한다.
+Designed by Spark IO. Distributed under a Creative Commons Attribution, Share-Alike license.Development kits based on this product should be distributed under a similar license.Commercial products using the Photon as a reference design need not comply with this license; further questions can be sent to hello@particle.io.Check license.txt for more information.
+Spark IO에서 설계함. Crearive Commons 저작자 표시에 따라 배포, 동일 조건 변경허락.이 제품을 기반으로 한 개발 키트는 같은 라이센스 조건하에서만 배포할 수 있다. 레퍼런스 디자인으로 '포톤'을 사용한 상용 제품은 이 라이센스를 준수할 필요가 없다; 추가 질문은 hello@particle.io로 보낼 수 있다. 더 많은 정보를 위해서는 license.txt를 확인한다.
