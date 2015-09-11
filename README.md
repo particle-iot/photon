@@ -19,8 +19,7 @@ USI 모듈의 특징
 
 
 **Compared to the Spark Core, the Photon introduces some additional hardware features and changes: **
-
-**스파크 '코어'와 비교해보면 '포톤'은 몇가지 하드웨어 기능이 추가, 변화되었다.  **
+__스파크 '코어'와 비교해보면 '포톤'은 몇가지 하드웨어 기능이 추가, 변화되었다. __
 
 ** 1. Pin 3V3* is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.**
 
