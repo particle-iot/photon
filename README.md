@@ -7,9 +7,9 @@ The Photon has a similar footprint and is as close to drop-in compatible as poss
 '포톤'은 스파크의 '코어'와 비슷한 구조를 가지고 있으며 가능한 한 호환이 될 수 있도록 되어 있다.
 
 ### Some highlights of the USI module:
-**USI 모듈의 특징**
+USI 모듈의 특징
 
-** 1. IEEE 802.11b/g/n**
+ 1. IEEE 802.11b/g/n
  2. Soft AP mode - read smooth WiFi setup process
  3. STM32F205G
  	- 1 MB Flash
@@ -23,7 +23,7 @@ Compared to the Spark Core, the Photon introduces some additional hardware featu
 
  1. Pin 3V3 is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.
 
-**3V3핀은 VBAT로 바뀌었다. 이 핀은 모듈이 대기모드에 있을 때 내부 RTC, 백업 레지스터, SRAM에 전원을 공급하는데 사용될 수 있다. **
+3V3핀은 VBAT로 바뀌었다. 이 핀은 모듈이 대기모드에 있을 때 내부 RTC, 백업 레지스터, SRAM에 전원을 공급하는데 사용될 수 있다. 
 
 
  2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).
