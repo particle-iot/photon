@@ -1,9 +1,9 @@
 # Photon
 
-**The Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.**
+The Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.
 '포톤'은 USI의 WM-N0BM-09 모듈을 기반으로 하는 매우 작은 와이파이 개발 키트입니다. 이 모듈은 브로드컴의 BCM43362 와이파이 라디오와 STM32F205G 마이크로컨트롤러로 구성되어 있습니다. 
 
-**The Photon has a similar footprint and is as close to drop-in compatible as possible with the Spark Core.**
+The Photon has a similar footprint and is as close to drop-in compatible as possible with the Spark Core.
 '포톤'은 스파크의 '코어'와 비슷한 구조를 가지고 있으며 가능한 한 호환이 될 수 있도록 되어 있다.
 
 ### Some highlights of the USI module:
@@ -18,34 +18,34 @@ USI 모듈의 특징
  4. Measures 12mm x 11mm x 1.3mm
 
 
-**Compared to the Spark Core, the Photon introduces some additional hardware features and changes: **
-__스파크 '코어'와 비교해보면 '포톤'은 몇가지 하드웨어 기능이 추가, 변화되었다. __
+Compared to the Spark Core, the Photon introduces some additional hardware features and changes: 
+스파크 '코어'와 비교해보면 '포톤'은 몇가지 하드웨어 기능이 추가, 변화되었다. 
 
-** 1. Pin 3V3* is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.**
+** 1. Pin 3V3 is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.**
 
 3V3핀은 VBAT로 바뀌었다. 이 핀은 모듈이 대기모드에 있을 때 내부 RTC, 백업 레지스터, SRAM에 전원을 공급하는데 사용될 수 있다. 
 
 
-** 2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).**
+ 2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).
 
 D1과 D2핀은 CAN통신(각각의 TX와 RX) 을 위해 사용될 수 있다. 
 
 
-** 3. Pin A3 now features a DAC (channel 2)**
+ 3. Pin A3 now features a DAC (channel 2)
 
 A3핀은 이제 DAC(채널 2)을 포함하고 있다.
 
 
-** 4. Pin A6 is changed to DAC and exposes a DAC (channel 1).**
+ 4. Pin A6 is changed to DAC and exposes a DAC (channel 1).
 
 A6핀은 DAC로 바뀌었고, DAC라고 써져있다.(채널 1)
 
 
-** 5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC input, PWM or to WAKEUP (rising edge) the module from sleep/standby modes.**
+ 5. Pin A7 is changed to WKP (Wakeup). This pin can be used as a standard GPIO, ADC input, PWM or to WAKEUP (rising edge) the module from sleep/standby modes.
 
 A7핀은 WKP(Wakeup)으로 바뀌었다. 이 핀은 표준 GPIO, ADC입력, PWM으로 사용할 수 있으며, 슬립/대기 모드의 모듈을 깨우는데(WAKEUP(rising edge:신호가 0에서 1로 상승하는) 사용할 수 있다. 
 
-**A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.**
+A detailed description of the pin mapping can be found in the pin-mapping folder of this repository.
 
 핀 매핑의 상세한 설명은 이 저장소의 pin-mapping 폴더에서 찾을 수 있다.
 
