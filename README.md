@@ -21,9 +21,9 @@ USI 모듈의 특징
 Compared to the Spark Core, the Photon introduces some additional hardware features and changes: 
 스파크 '코어'와 비교해보면 '포톤'은 몇가지 하드웨어 기능이 추가, 변화되었다. 
 
-** 1. Pin 3V3 is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.**
+ 1. Pin 3V3 is now replaced with VBAT. This pin can be used to power the internal RTC, backup registers and SRAM when the module is put in standby mode.
 
-3V3핀은 VBAT로 바뀌었다. 이 핀은 모듈이 대기모드에 있을 때 내부 RTC, 백업 레지스터, SRAM에 전원을 공급하는데 사용될 수 있다. 
+**3V3핀은 VBAT로 바뀌었다. 이 핀은 모듈이 대기모드에 있을 때 내부 RTC, 백업 레지스터, SRAM에 전원을 공급하는데 사용될 수 있다. **
 
 
  2. Pins D1 and D2 can also be used for CAN communication (TX and RX respectively).
