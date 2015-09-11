@@ -2,7 +2,7 @@
 __I was translating the original document to Korean.__
 
 The Photon is a tiny WiFi development kit based around USI's WM-N-BM-09 module. This module is a combination of Broadcom's BCM43362 WiFi radio and a STM32F205G microcontroller.
-'포톤'은 USI의 WM-N0BM-09 모듈을 기반으로 하는 매우 작은 와이파이 개발 키트입니다. 이 모듈은 브로드컴의 BCM43362 와이파이 라디오와 STM32F205G 마이크로컨트롤러로 구성되어 있습니다. 
+  '포톤'은 USI의 WM-N0BM-09 모듈을 기반으로 하는 매우 작은 와이파이 개발 키트입니다. 이 모듈은 브로드컴의 BCM43362 와이파이 라디오와 STM32F205G 마이크로컨트롤러로 구성되어 있습니다. 
 
 The Photon has a similar footprint and is as close to drop-in compatible as possible with the Spark Core.
 '포톤'은 스파크의 '코어'와 비슷한 구조를 가지고 있으며 가능한 한 호환이 될 수 있도록 되어 있다.
