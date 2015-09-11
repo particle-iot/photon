@@ -7,9 +7,9 @@ The Photon has a similar footprint and is as close to drop-in compatible as poss
 '포톤'은 스파크의 '코어'와 비슷한 구조를 가지고 있으며 가능한 한 호환이 될 수 있도록 되어 있다.
 
 ### Some highlights of the USI module:
-USI 모듈의 특징
+**USI 모듈의 특징**
 
- 1. IEEE 802.11b/g/n
+** 1. IEEE 802.11b/g/n**
  2. Soft AP mode - read smooth WiFi setup process
  3. STM32F205G
  	- 1 MB Flash
