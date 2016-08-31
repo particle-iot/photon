@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5460,6 +5460,122 @@ RECOMMENDED ON ALL LAYERS</text>
 <wire x1="2.54" y1="3.048" x2="2.54" y2="33.528" width="0.3048" layer="51"/>
 <wire x1="2.54" y1="33.528" x2="0" y2="33.528" width="0.3048" layer="51"/>
 </package>
+<package name="PHOTON-P1">
+<smd name="1" x="-1.405" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-0.405" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="2.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="3.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="4.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="5.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="9" x="6.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="10" x="7.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="11" x="8.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="12" x="9.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="13" x="10.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="14" x="11.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="15" x="12.595" y="-9.305" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<wire x1="-13.905" y1="10.095" x2="-13.905" y2="-9.905" width="0.127" layer="21"/>
+<smd name="47" x="-1.405" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="46" x="-0.405" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="45" x="0.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="44" x="1.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="43" x="2.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="42" x="3.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="41" x="4.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="40" x="5.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="39" x="6.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="38" x="7.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="37" x="8.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="36" x="9.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="35" x="10.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="34" x="11.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="33" x="12.595" y="9.495" dx="1.2" dy="0.6" layer="1" rot="R90"/>
+<smd name="16" x="13.495" y="-7.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="17" x="13.495" y="-6.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="18" x="13.495" y="-5.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="19" x="13.495" y="-4.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="20" x="13.495" y="-3.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="21" x="13.495" y="-2.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="22" x="13.495" y="-1.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="23" x="13.495" y="-0.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="24" x="13.495" y="0.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="25" x="13.495" y="1.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="26" x="13.495" y="2.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="27" x="13.495" y="3.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="28" x="13.495" y="4.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="29" x="13.495" y="5.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="30" x="13.495" y="6.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="31" x="13.495" y="7.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="32" x="13.495" y="8.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="64" x="-2.205" y="-7.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="63" x="-2.205" y="-6.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="62" x="-2.205" y="-5.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="61" x="-2.205" y="-4.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="60" x="-2.205" y="-3.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="59" x="-2.205" y="-2.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="58" x="-2.205" y="-1.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="57" x="-2.205" y="-0.905" dx="1.2" dy="0.6" layer="1"/>
+<smd name="56" x="-2.205" y="0.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="55" x="-2.205" y="1.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="54" x="-2.205" y="2.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="53" x="-2.205" y="3.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="52" x="-2.205" y="4.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="51" x="-2.205" y="5.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="50" x="-2.205" y="6.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="49" x="-2.205" y="7.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="48" x="-2.205" y="8.095" dx="1.2" dy="0.6" layer="1"/>
+<smd name="65" x="2.595" y="-3.405" dx="1.2" dy="1.2" layer="1"/>
+<smd name="66" x="5.595" y="-3.405" dx="1.2" dy="1.2" layer="1"/>
+<smd name="67" x="8.595" y="-3.405" dx="1.2" dy="1.2" layer="1"/>
+<smd name="70" x="8.595" y="0.095" dx="1.2" dy="1.2" layer="1"/>
+<smd name="69" x="5.595" y="0.095" dx="1.2" dy="1.2" layer="1"/>
+<smd name="68" x="2.595" y="0.095" dx="1.2" dy="1.2" layer="1"/>
+<smd name="73" x="8.595" y="3.595" dx="1.2" dy="1.2" layer="1"/>
+<smd name="72" x="5.595" y="3.595" dx="1.2" dy="1.2" layer="1"/>
+<smd name="71" x="2.595" y="3.595" dx="1.2" dy="1.2" layer="1"/>
+<smd name="75" x="-13.025" y="-9.025" dx="1.2" dy="1.2" layer="1"/>
+<smd name="74" x="-13.025" y="9.215" dx="1.2" dy="1.2" layer="1"/>
+<rectangle x1="-13.905" y1="-9.905" x2="-2.805" y2="10.095" layer="39"/>
+<rectangle x1="-13.905" y1="-9.905" x2="-2.805" y2="10.095" layer="40"/>
+<text x="-13.905" y="11.095" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-13.905" y="-11.905" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.905" y1="10.095" x2="-13.905" y2="10.095" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-9.905" x2="-13.905" y2="-9.905" width="0.127" layer="21"/>
+<wire x1="13.095" y1="-9.905" x2="14.095" y2="-9.905" width="0.127" layer="21"/>
+<wire x1="14.095" y1="-9.905" x2="14.095" y2="-8.405" width="0.127" layer="21"/>
+<wire x1="13.095" y1="10.095" x2="14.095" y2="10.095" width="0.127" layer="21"/>
+<wire x1="14.095" y1="10.095" x2="14.095" y2="8.595" width="0.127" layer="21"/>
+<wire x1="-13.905" y1="-9.905" x2="14.095" y2="-9.905" width="0.127" layer="51"/>
+<wire x1="14.095" y1="-9.905" x2="14.095" y2="10.095" width="0.127" layer="51"/>
+<wire x1="14.095" y1="10.095" x2="-13.905" y2="10.095" width="0.127" layer="51"/>
+<wire x1="-13.905" y1="10.095" x2="-13.905" y2="-9.905" width="0.127" layer="51"/>
+<text x="12.695" y="-9.505" size="0.25" layer="51" font="vector" rot="R90">15</text>
+<text x="-1.305" y="-9.405" size="0.25" layer="51" font="vector" rot="R90">1</text>
+<text x="13.295" y="-8.005" size="0.25" layer="51" font="vector">16</text>
+<text x="13.295" y="7.995" size="0.25" layer="51" font="vector">32</text>
+<text x="12.695" y="9.295" size="0.25" layer="51" font="vector" rot="R90">33</text>
+<text x="-1.305" y="9.295" size="0.25" layer="51" font="vector" rot="R90">47</text>
+<text x="-2.405" y="7.995" size="0.25" layer="51" font="vector">48</text>
+<text x="-2.405" y="-8.005" size="0.25" layer="51" font="vector">64</text>
+<text x="2.395" y="3.495" size="0.25" layer="51" font="vector">71</text>
+<text x="5.395" y="3.495" size="0.25" layer="51" font="vector">72</text>
+<text x="8.395" y="3.495" size="0.25" layer="51" font="vector">73</text>
+<text x="2.395" y="-0.005" size="0.25" layer="51" font="vector">68</text>
+<text x="5.395" y="-0.005" size="0.25" layer="51" font="vector">69</text>
+<text x="8.395" y="-0.005" size="0.25" layer="51" font="vector">70</text>
+<text x="2.395" y="-3.505" size="0.25" layer="51" font="vector">65</text>
+<text x="5.395" y="-3.505" size="0.25" layer="51" font="vector">66</text>
+<text x="8.395" y="-3.505" size="0.25" layer="51" font="vector">67</text>
+<text x="-13.205" y="9.095" size="0.25" layer="51" font="vector">74</text>
+<text x="-13.205" y="-9.205" size="0.25" layer="51" font="vector">75</text>
+<text x="-7.905" y="0.095" size="0.5" layer="51" font="vector" align="center">ground plane
+and signal
+keep out
+recommended
+on all layers</text>
+</package>
 </packages>
 <symbols>
 <symbol name="UCC28700">
@@ -10214,6 +10330,63 @@ RECOMMENDED ON ALL LAYERS</text>
 <pin name="USB_D-" x="5.08" y="5.08" length="short" rot="R180"/>
 <pin name="USB_D+" x="5.08" y="7.62" length="short" rot="R180"/>
 </symbol>
+<symbol name="PHOTON-P1">
+<description>Photon P1 Board
+Datasheet: http://docs.particle.io/photon/p1-datasheet/</description>
+<pin name="VDDIO_3V3_WL" x="30.48" y="-22.86" length="middle" rot="R180"/>
+<pin name="WL_REG_ON" x="-30.48" y="33.02" length="middle"/>
+<pin name="WL_JTAG_TDI" x="-30.48" y="30.48" length="middle"/>
+<pin name="WL_JTAG_TCK" x="-30.48" y="27.94" length="middle"/>
+<pin name="WL_JTAG_TRSTN" x="-30.48" y="25.4" length="middle"/>
+<pin name="WL_JTAG_TMS" x="-30.48" y="22.86" length="middle"/>
+<pin name="WL_JTAG_TDO" x="-30.48" y="20.32" length="middle"/>
+<pin name="MICRO_SPI1_MISO" x="-30.48" y="12.7" length="middle"/>
+<pin name="MICRO_SPI1_SCK" x="-30.48" y="10.16" length="middle"/>
+<pin name="MICRO_SPI1_MOSI" x="-30.48" y="7.62" length="middle"/>
+<pin name="MICRO_SPI1_SS" x="-30.48" y="5.08" length="middle"/>
+<pin name="VDD_3V3" x="30.48" y="-25.4" length="middle" rot="R180"/>
+<pin name="MICRO_UART2_RTS" x="-30.48" y="-10.16" length="middle"/>
+<pin name="MICRO_UART2_CTS" x="-30.48" y="-12.7" length="middle"/>
+<pin name="MICRO_UART2_RXD" x="-30.48" y="-15.24" length="middle"/>
+<pin name="MICRO_UART2_TXD" x="-30.48" y="-17.78" length="middle"/>
+<pin name="TESTMODE" x="-30.48" y="-33.02" length="middle"/>
+<pin name="MICRO_RST_N" x="-30.48" y="-22.86" length="middle"/>
+<pin name="MICRO_I2C1_SCL" x="-30.48" y="-25.4" length="middle"/>
+<pin name="MICRO_I2C1_SDA" x="-30.48" y="-27.94" length="middle"/>
+<pin name="VBAT_MICRO" x="30.48" y="-27.94" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_1" x="30.48" y="33.02" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_2" x="30.48" y="30.48" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_3" x="30.48" y="27.94" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_5" x="30.48" y="25.4" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_6" x="30.48" y="22.86" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_7" x="30.48" y="20.32" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_8" x="30.48" y="17.78" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_9" x="30.48" y="15.24" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_12" x="30.48" y="12.7" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_13" x="30.48" y="10.16" length="middle" rot="R180"/>
+<pin name="MICRO_GPIO_14" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TRSTN" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TDO" x="30.48" y="0" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TDI" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TMS" x="30.48" y="-5.08" length="middle" rot="R180"/>
+<pin name="MICRO_JTAG_TCK" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="BTCX_STATUS" x="30.48" y="-12.7" length="middle" rot="R180"/>
+<pin name="BTCX_RF_ACTIVE" x="30.48" y="-15.24" length="middle" rot="R180"/>
+<pin name="BTCX_TXCONF" x="30.48" y="-17.78" length="middle" rot="R180"/>
+<pin name="WL_SLEEP_CLK" x="-30.48" y="17.78" length="middle"/>
+<pin name="MICRO_UART1_RTS" x="-30.48" y="0" length="middle"/>
+<pin name="MICRO_UART1_CTS" x="-30.48" y="-2.54" length="middle"/>
+<pin name="MICRO_UART1_RXD" x="-30.48" y="-5.08" length="middle"/>
+<pin name="MICRO_UART1_TXD" x="-30.48" y="-7.62" length="middle"/>
+<text x="-25.454" y="39.212" size="1.27" layer="95">&gt;NAME</text>
+<text x="-25.454" y="-40.504" size="1.27" layer="96">&gt;Photon P1</text>
+<pin name="GND" x="30.48" y="-33.02" length="middle" rot="R180"/>
+<pin name="VBAT_WL" x="30.48" y="-30.48" length="middle" rot="R180"/>
+<wire x1="-25.4" y1="38.1" x2="-25.4" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-38.1" x2="25.4" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-38.1" x2="25.4" y2="38.1" width="0.254" layer="94"/>
+<wire x1="25.4" y1="38.1" x2="-25.4" y2="38.1" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="UCC28700">
@@ -12569,6 +12742,69 @@ SRN6045- 33uH, 20% 1.4A</description>
 <connect gate="G$1" pin="VBAT" pad="#22 22 @22"/>
 <connect gate="G$1" pin="VIN" pad="#1 1 @1"/>
 <connect gate="G$1" pin="WKP" pad="#5 5 @5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PHOTON-P1">
+<description>Photon P1
+Datasheet: http://docs.particle.io/photon/p1-datasheet/</description>
+<gates>
+<gate name="G$1" symbol="PHOTON-P1" x="-12.7" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="PHOTON-P1">
+<connects>
+<connect gate="G$1" pin="BTCX_RF_ACTIVE" pad="57"/>
+<connect gate="G$1" pin="BTCX_STATUS" pad="56"/>
+<connect gate="G$1" pin="BTCX_TXCONF" pad="58"/>
+<connect gate="G$1" pin="GND" pad="1 4 6 13 15 25 28 37 39 59 65 66 67 68 69 70 71 72 73"/>
+<connect gate="G$1" pin="MICRO_GPIO_1" pad="40"/>
+<connect gate="G$1" pin="MICRO_GPIO_12" pad="48"/>
+<connect gate="G$1" pin="MICRO_GPIO_13" pad="49"/>
+<connect gate="G$1" pin="MICRO_GPIO_14" pad="50"/>
+<connect gate="G$1" pin="MICRO_GPIO_2" pad="41"/>
+<connect gate="G$1" pin="MICRO_GPIO_3" pad="42"/>
+<connect gate="G$1" pin="MICRO_GPIO_5" pad="43"/>
+<connect gate="G$1" pin="MICRO_GPIO_6" pad="44"/>
+<connect gate="G$1" pin="MICRO_GPIO_7" pad="45"/>
+<connect gate="G$1" pin="MICRO_GPIO_8" pad="46"/>
+<connect gate="G$1" pin="MICRO_GPIO_9" pad="47"/>
+<connect gate="G$1" pin="MICRO_I2C1_SCL" pad="35"/>
+<connect gate="G$1" pin="MICRO_I2C1_SDA" pad="36"/>
+<connect gate="G$1" pin="MICRO_JTAG_TCK" pad="55"/>
+<connect gate="G$1" pin="MICRO_JTAG_TDI" pad="53"/>
+<connect gate="G$1" pin="MICRO_JTAG_TDO" pad="52"/>
+<connect gate="G$1" pin="MICRO_JTAG_TMS" pad="54"/>
+<connect gate="G$1" pin="MICRO_JTAG_TRSTN" pad="51"/>
+<connect gate="G$1" pin="MICRO_RST_N" pad="34"/>
+<connect gate="G$1" pin="MICRO_SPI1_MISO" pad="21"/>
+<connect gate="G$1" pin="MICRO_SPI1_MOSI" pad="23"/>
+<connect gate="G$1" pin="MICRO_SPI1_SCK" pad="22"/>
+<connect gate="G$1" pin="MICRO_SPI1_SS" pad="24"/>
+<connect gate="G$1" pin="MICRO_UART1_CTS" pad="62"/>
+<connect gate="G$1" pin="MICRO_UART1_RTS" pad="61"/>
+<connect gate="G$1" pin="MICRO_UART1_RXD" pad="63"/>
+<connect gate="G$1" pin="MICRO_UART1_TXD" pad="64"/>
+<connect gate="G$1" pin="MICRO_UART2_CTS" pad="30"/>
+<connect gate="G$1" pin="MICRO_UART2_RTS" pad="29"/>
+<connect gate="G$1" pin="MICRO_UART2_RXD" pad="31"/>
+<connect gate="G$1" pin="MICRO_UART2_TXD" pad="32"/>
+<connect gate="G$1" pin="TESTMODE" pad="33"/>
+<connect gate="G$1" pin="VBAT_MICRO" pad="38"/>
+<connect gate="G$1" pin="VBAT_WL" pad="2 3"/>
+<connect gate="G$1" pin="VDDIO_3V3_WL" pad="5"/>
+<connect gate="G$1" pin="VDD_3V3" pad="26 27"/>
+<connect gate="G$1" pin="WL_JTAG_TCK" pad="17"/>
+<connect gate="G$1" pin="WL_JTAG_TDI" pad="16"/>
+<connect gate="G$1" pin="WL_JTAG_TDO" pad="20"/>
+<connect gate="G$1" pin="WL_JTAG_TMS" pad="19"/>
+<connect gate="G$1" pin="WL_JTAG_TRSTN" pad="18"/>
+<connect gate="G$1" pin="WL_REG_ON" pad="7"/>
+<connect gate="G$1" pin="WL_SLEEP_CLK" pad="60"/>
 </connects>
 <technologies>
 <technology name=""/>
